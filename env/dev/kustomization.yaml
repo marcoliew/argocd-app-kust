@@ -1,0 +1,11 @@
+---
+namespace: dev
+replicas:
+  - name: guestbook-lw
+    count: 2
+images:
+  - name: guestbook-lw
+    newTag: marcoliew/ks-guestbook-demo:latest
+resources:
+  - ../../base
+
