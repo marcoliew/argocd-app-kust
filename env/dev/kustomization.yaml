@@ -4,7 +4,7 @@ replicas:
   - name: guestbook-lw
     count: 2
 images:
-  - name: guestbook-lw
+  - name: marcoliew/ks-guestbook-demo
     newTag: marcoliew/ks-guestbook-demo:latest
 resources:
   - ../../base
