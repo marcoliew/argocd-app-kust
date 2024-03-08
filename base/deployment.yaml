@@ -14,8 +14,8 @@ spec:
         app: guestbook-lw
     spec:
       containers:
-      - name: guestbook-lw
-        imagePullPolicy: Always
-        images: marcoliew/ks-guestbook-demo
-        ports:
-          - containerPort: 80
+        - name: guestbook-lw
+          imagePullPolicy: Always
+          image: marcoliew/ks-guestbook-demo
+          ports:
+            - containerPort: 80
