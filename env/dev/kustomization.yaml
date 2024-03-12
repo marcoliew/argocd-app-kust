@@ -1,5 +1,5 @@
 ---
-namespace: dev
+namespace: kust
 # replicas:
 #   - name: guestbook-lw
 #     count: 2
