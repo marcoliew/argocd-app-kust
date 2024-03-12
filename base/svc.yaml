@@ -1,11 +1,11 @@
 apiVersion: v1	
 kind: Service	
 metadata:	
-  name: guestbook-lw	
+  name: appkust
 spec:	
   ports:	
   - port: 6060
     targetPort: 80	
   selector:	
-    app: guestbook-lw
+    app: appkust
   type: LoadBalancer

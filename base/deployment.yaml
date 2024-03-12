@@ -2,20 +2,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-lw
+  name: appkust
 spec:
   replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: guestbook-lw
+      app: appkust
   template:
     metadata:
       labels:
-        app: guestbook-lw
+        app: appkust
     spec:
       containers:
-        - name: guestbook-lw
+        - name: appkust
           imagePullPolicy: Always
           image: marcoliew/my-app
           ports:
