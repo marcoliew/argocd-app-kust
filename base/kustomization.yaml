@@ -1,6 +1,8 @@
-resources:
-- deployment.yaml
-- svc.yaml
-- namespace.yaml
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+metadata:
+  name: arbitrary
+resources:
+  - deployment.yaml
+  - namespace.yaml

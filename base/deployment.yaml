@@ -2,10 +2,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: appkust
+  name: appkust-deployment
+  labels:
+    app: appkust
 spec:
-  replicas: 1
-  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: appkust

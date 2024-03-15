@@ -1,8 +1,8 @@
 ---
-namespace: kust
-# replicas:
-#   - name: guestbook-lw
-#     count: 2
+namespace: kust-dev
+replicas:
+  - name: appkust-deployment
+    count: 1
 # images:
 #   - name: marcoliew/ks-guestbook-demo
 #     newTag: marcoliew/ks-guestbook-demo:latest
