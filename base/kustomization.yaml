@@ -6,4 +6,5 @@ metadata:
 resources:
   - deployment.yaml
   - namespace.yaml
+  - docker-secret.yaml 
   - svc.yaml
