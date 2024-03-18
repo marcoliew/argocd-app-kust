@@ -5,7 +5,7 @@ replicas:
     count: 1
 images:
   - name: marcoliew/my-app
-#     newTag: marcoliew/my-app:latest
+    newName: marcoliew/my-app-pri
 resources:
   - ../../../base
 
