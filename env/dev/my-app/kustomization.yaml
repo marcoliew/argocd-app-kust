@@ -1,5 +1,5 @@
 ---
-namespace: kust-dev
+namespace: argocd
 replicas:
   - name: appkust-deployment
     count: 1
@@ -14,5 +14,5 @@ patches:
     patch: |-
       - op: add
         path: /spec/template/spec/imagePullSecrets
-        value: [{ name: docker-secret-kustdev }]
+        value: [{ name: docker-secret-kust }]
 
