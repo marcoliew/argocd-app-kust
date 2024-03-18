@@ -6,6 +6,7 @@ replicas:
 images:
   - name: marcoliew/my-app
     newName: marcoliew/my-app-pri
+
 resources:
   - ../../../base
 patches:
@@ -15,4 +16,5 @@ patches:
       - op: add
         path: /spec/template/spec/imagePullSecrets
         value: [{ name: docker-secret-kust }]
+
 

@@ -17,6 +17,6 @@ spec:
       containers:
         - name: appkust
           imagePullPolicy: Always
-          image: marcoliew/my-app
+          image: marcoliew/my-app-pri
           ports:
             - containerPort: 80
