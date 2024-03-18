@@ -1,3 +1,0 @@
-kustomize:
-  images:
-  - marcoliew/my-app-pri:latest
