@@ -1,5 +1,5 @@
 ---
-namespace: argocd
+namespace: dev
 replicas:
   - name: appkust-deployment
     count: 1

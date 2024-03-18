@@ -5,5 +5,5 @@ metadata:
   name: arbitrary
 resources:
   - deployment.yaml
-#  - namespace.yaml
+  - namespace.yaml
   - svc.yaml
