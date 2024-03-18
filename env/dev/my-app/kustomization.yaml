@@ -8,12 +8,11 @@ replicas:
 #     newTag: marcoliew/my-app:latest
 resources:
   - ../../../base
-
 patches:
   - target:
       kind: Deployment
     patch: |-
       - op: add
         path: /spec/template/spec/imagePullSecrets
-        value: [{ name: docker-secret-kust }]
+        value: [{ name: dockerconfigjson }]
 
