@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - marcoliew/my-app:latest
